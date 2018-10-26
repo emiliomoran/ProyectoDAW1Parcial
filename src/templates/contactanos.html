@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unidad Educativa Alfredo Veintimilla Moscozo</title>
+  </head>
+  <body>
+    <header>
+      <img src="../static/img/logo.jpeg" alt="">
+      <h1>UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
+      <input class="header-right" type="search" placeholder="Buscar ...">
+    </header>
+    <nav>
+      <a href="#">INICIO</a>
+      <a href="#">PROFESOR</a>
+      <a href="#">ESTUDIANTE</a>
+      <a href="#">¿QUIENES SOMOS?</a>
+      <a href="#">¿QUE HACEMOS?</a>
+    </nav>
+    <section>
+      <form>
+        <h2>INGRESE INFORMACION</h2>
+        <label for="n_input_nombre">NOMBRES:</label>
+        <input type="text" placeholder="Ingrese nombres ..." name="n_input_nombre" required>
+        <label for="n_input_apellido">APELLIDOS:</label>
+        <input type="text" placeholder="Ingrese apellidos ..." name="n_input_apellido" required>
+        <label for="n_input_fn">FECHA NACIMIENTO:</label>
+        <input type="text" placeholder="Ingrese fn ..." name="n_input_fn" required>
+        <label for="n_input_email">EMAIL:</label>
+        <input type="text" placeholder="Ingrese email ..." name="n_input_email" required>
+        <label for="n_input_nombre">FOTO:</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required>
+        <label for="n_input_ciudad">CIUDAD</label>
+        <input list="list_ciudad" name="n_input_ciudad">
+        <datalist id="list_ciudad">
+          <option value="CIUDADES">
+        </datalist>
+        <label for="n_input_comentario">COMENTARIO:</label>        
+        <textarea rows="4" cols="50">
+        Ingrese comentario ...
+        </textarea>
+        <button type="button">ENVIAR</button>
+        <button type="button">LIMPIAR</button>        
+      </form>
+    </section>
+    <footer>
+      <a class="a_contactanos_footer" href="#">CONTACTANOS</a>
+      <p class="p_footer">Unidad Educativa Alfredo Veintimilla Moscozo © 2018. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
