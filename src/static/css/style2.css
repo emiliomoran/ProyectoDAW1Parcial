@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;	
+}
+
+img {
+	width: 100px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 2%;
+    margin: 5;
+    border: 1px solid red;
+}
