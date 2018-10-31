@@ -6,76 +6,92 @@
     <title>Unidad Educativa Alfredo Veintimilla Moscozo</title>
     <link rel="stylesheet" href="../static/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../static/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
-        <header class="col-12 col-sm-12">
-          <img class="col-2 col-sm-2 img-fluid" src="../static/img/logo.jpeg" alt="logo">
-          <h1 class="col-8 col-sm-8">UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
-          <input class="col-2 col-sm-2" type="search" placeholder="Buscar ...">  
+        <header class="col-md-12 col-sm-12">
+          <img class="col-md-2 col-sm-12 img-fluid" src="../static/img/logo.jpeg" alt="logo">
+          <h1 class="col-md-8 col-sm-12">UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
+          <input class="col-md-2 col-sm-12" type="search" placeholder="Buscar ...">  
         </header>  
       </div>
-      <div class="row">
-        <nav class="col-12 col-sm-12">
-          <a class="col-4 col-sm-4" href="#">INICIO</a>
-          <a class="col-2 col-sm-2" href="#">PROFESOR</a>
-          <a class="col-2 col-sm-2" href="#">ESTUDIANTE</a>
-          <a class="col-2 col-sm-2" href="#">¿QUIENES SOMOS?</a>
-          <a class="col-2 col-sm-2" href="#">¿QUE HACEMOS?</a>
-        </nav>  
-      </div>
-      <div class="row">      
-        <section class="col-12 col-sm-12">
-          <form class="col-12 col-sm-12">
-            <h2 class="col-12 col-sm-12">INGRESE INFORMACION</h2>
-            <div class="col-6 col-sm-6">
-              <div class="col-12 col-sm-12">
-                <label class="col-4 col-sm-4" for="n_input_nombre">NOMBRES:</label>
-                <input class="col-8 col-sm-8" type="text" placeholder="Ingrese nombres ..." name="n_input_nombre" required>
-              </div>
-              <div class="col-12 col-sm-12">
-                <label class="col-8 col-sm-8" for="n_input_fn">FECHA NACIMIENTO:</label>
-                <input class="col-4 col-sm-4" type="date" placeholder="Ingrese fn ..." name="n_input_fn" required>
-              </div>
-              <div class="col-12 col-sm-12">
-                <label class="col-4 col-sm-4" for="n_input_email">EMAIL:</label>
-                <input class="col-8 col-sm-8" type="text" placeholder="Ingrese email ..." name="n_input_email" required>
-              </div>
-              <div class="col-12 col-sm-12">
-                <label class="col-4 col-sm-4" for="n_input_nombre">FOTO:</label>
-                <input class="col-8 col-sm-8" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required>
-              </div>
-              <div class="col-12 col-sm-12">
-                <button class="col-6 col-sm-6" type="button">ENVIAR</button>
-                <button class="col-6 col-sm-6" type="button">LIMPIAR</button>        
-              </div>
+      <div class="row sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light col-xl-12">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menuPrincipal" class="collapse navbar-collapse">
+                <ul class="list-inline navbar-nav mx-auto">
+                    <li class="list-inline-item nav-item active"><a class="nav-link" href="#">INICIO</a></li>
+                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">PROFESOR</a></li>
+                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">ESTUDIANTE</a></li>
+                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">¿QUIENES SOMOS?</a></li>
+                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">¿QUE HACEMOS?</a></li>
+                </ul>
             </div>
-            <div class="col-6 col-sm-6">
-              <div class="col-12 col-sm-12">
-                <label class="col-4 col-sm-4" for="n_input_apellido">APELLIDOS:</label>
-                <input class="col-8 col-sm-8" type="text" placeholder="Ingrese apellidos ..." name="n_input_apellido" required>    
+        </nav>
+      </div> 
+      <div class="row">      
+        <section class="col-md-12">
+          <form class="col-md-12">
+            <div class="row">
+              <h2 class="col-md-12">INGRESE INFORMACION</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6">  
+                <label class="col-md-4" for="n_input_nombre">NOMBRES:</label>
+                <input class="col-md-8" type="text" placeholder="Ingrese nombres ..." name="n_input_nombre" required>
               </div>
-              <div class="col-12 col-sm-12">
-                <label class="col-4 col-sm-4" for="n_input_ciudad">CIUDAD</label>
-                <input class="col-8 col-sm-8" list="list_ciudad" name="n_input_ciudad">
+
+              <div class="col-md-6">
+                <label class="col-md-4" for="n_input_apellido">APELLIDOS:</label>
+                <input class="col-md-8" type="text" placeholder="Ingrese apellidos ..." name="n_input_apellido" required>  
+              </div>  
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">  
+                <label class="col-md-8" for="n_input_fn">FECHA NACIMIENTO:</label>
+                <input class="col-md-4" type="date" placeholder="Ingrese fn ..." name="n_input_fn" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="col-md-4" for="n_input_ciudad">CIUDAD</label>
+                <input class="col-md-8" list="list_ciudad" name="n_input_ciudad">
                 <datalist id="list_ciudad">
                   <option value="CIUDADES">
-                </datalist>    
-              </div>
-              <div class="col-12 col-sm-12">
-                <label class="col-12 col-sm-12" for="n_input_comentario">COMENTARIO:</label>        
-                <textarea class="col-12 col-sm-12" rows="4" cols="50">
-                Ingrese comentario ...
-                </textarea>                
+                </datalist>   
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-6">  
+                <label class="col-md-4" for="n_input_email">EMAIL:</label>
+                <input class="col-md-8" type="text" placeholder="Ingrese email ..." name="n_input_email" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="col-md-4" for="n_input_nombre">FOTO:</label>
+                <input class="col-md-8" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required>                
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">  
+                <label class="col-md-12" for="n_input_comentario">COMENTARIO:</label>        
+                <textarea class="col-md-12" rows="4" cols="50">
+                Ingrese comentario ...
+                </textarea>                                
+              </div>
+            </div>            
           </form>
         </section>
       </div>
       <div class="row">
-          <footer class="col-12 col-sm-12">
+          <footer class="col-12 col-sm-12 sticky-bottom">
             <a class="col-12 col-sm-12" href="#">CONTACTANOS</a>
             <p class="col-12 col-sm-12">Unidad Educativa Alfredo Veintimilla Moscozo © 2018. Todos los derechos reservados.</p>
           </footer>
