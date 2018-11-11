@@ -12,55 +12,55 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <header class="col-md-12 col-sm-12">
-          <img class="col-md-2 col-sm-12 img-fluid" src="../static/img/logo.jpeg" alt="logo">
-          <h1 class="col-md-8 col-sm-12">UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
-          <input class="col-md-2 col-sm-12" type="search" placeholder="Buscar ...">  
+        <header class="col-md-12 col-sm-12 header_principal">
+          <img class = "col-md-1 col-sm-1 img-fluid" src="../static/img/logo.jpeg" alt="logo">
+          <h1 class="col-md-8 col-sm-12 texto header_h1">UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
+          <input class="texto header_search col-md-3 col-sm-12" type="search" placeholder="Buscar ...">
         </header>  
       </div>
       <div class="row sticky-top">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light col-xl-12">
+        <nav class="navegacion navbar navbar-expand-sm navbar-light col-xl-12">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="menuPrincipal" class="collapse navbar-collapse">
-                <ul class="list-inline navbar-nav mx-auto">
-                    <li class="list-inline-item nav-item active"><a class="nav-link" href="#">INICIO</a></li>
-                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">PROFESOR</a></li>
-                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">ESTUDIANTE</a></li>
-                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">¿QUIENES SOMOS?</a></li>
-                    <li class="list-inline-item nav-item"><a class="nav-link" href="#">¿QUE HACEMOS?</a></li>
+            <div id="menuPrincipal" class="collapse navbar-collapse justify-content-end">
+                <ul class="list-inline navbar-nav w-100">
+                    <li class="list-inline-item nav-item active px-2 mr-auto"><a class="nav-link texto navegacion_element" href="dash.html">INICIO</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="login_profesor.html">PROFESOR</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="#">ESTUDIANTE</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="quienes_somos.html">¿QUIENES SOMOS?</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="que_hacemos.html">¿QUE HACEMOS?</a></li>
                 </ul>
             </div>
         </nav>
-      </div>   
-      <div class="row">      
+      </div>      
+      <div class="principal_2 row">     
         <section class="col-md-12">
           <form class="col-md-12">
             <div class="col-md-4">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 formulario_centro">
               <div class="row">
-                <h2 class="col-md-12">LOGIN</h2>
+                <h2 class="col-md-12 caja_login texto">LOGIN</h2>
               </div>
               <br>
               <div class="row">
-                <div class="col-md-12">
-                  <label class="col-md-12" for="n_input_usuario">USERNAME</label>
-                  <input class="col-md-12" type="text" placeholder="Ingrese usuario ..." name="n_input_usuario" required>    
+                <div class="col-md-12 casillas_lg">
+                  <label class="col-md-12 texto label_login" for="n_input_usuario">USERNAME</label>
+                  <input class="col-md-12 texto input_login" type="text" placeholder="Ingrese usuario ..." name="n_input_usuario" required>    
                 </div>                
               </div>
               <br>
               <div class="row">
-                <div class="col-md-12">
-                  <label class="col-md-12" for="n_input_pass">CONTRASENA</label>
-                  <input class="col-md-12" type="password" placeholder="Ingrese su contrasena ..." name="n_input_pass" required>  
+                <div class="col-md-12 casillas_lg">
+                  <label class="col-md-12 texto label_login" for="n_input_pass">CONTRASENA</label>
+                  <input class="col-md-12 texto input_login" type="password" placeholder="Ingrese su contrasena ..." name="n_input_pass" required>  
                 </div>                
               </div>
               <br>
               <div class="row">
-                <div class="col-md-12">
-                  <button class="col-md-12" type="button">ACEPTAR</button>
+                <div class="col-md-12 casillas_lg">
+                  <button class="col-md-12 texto boton" type="button">ACEPTAR</button>
                   <a class="col-md-12" href="#">Olvidaste tu contrasena?</a>
                 </div>                
               </div>
@@ -71,10 +71,10 @@
         </section>
       </div>
       <div class="row">
-          <footer class="col-12 col-sm-12">
-            <a class="col-12 col-sm-12" href="#">CONTACTANOS</a>
-            <p class="col-12 col-sm-12">Unidad Educativa Alfredo Veintimilla Moscozo © 2018. Todos los derechos reservados.</p>
-          </footer>
+        <footer class="col-md-12 col-sm-12">
+          <a class="texto footer_a" href="contactanos.html">CONTACTANOS</a>
+          <p class="texto footer_p">Unidad Educativa Alfredo Veintimilla Moscozo © 2018. Todos los derechos reservados.</p>
+        </footer>
       </div>
     </div>
   </body>

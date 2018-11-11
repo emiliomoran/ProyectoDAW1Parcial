@@ -1,14 +1,249 @@
-* {
-	box-sizing: border-box;	
-}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 img {
 	width: 100px;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 2%;
-    margin: 5;
-    border: 1px solid red;
+.texto {
+  	font-family: 'Ubuntu', sans-serif;	  	
+}
+
+.header_principal {
+	top: 0;
+	background-color: #98b2ae;
+}
+
+.header_h1 {
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 1%;
+	margin-bottom: 0%;
+	color: black;
+	color: #f2fffd;
+
+}
+
+.header_search {
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	color: #c0c0c0;
+	font-weight: bold;
+}
+
+.navegacion {
+	background-color: #b2afa1;
+}
+
+.navegacion_element {
+	font-weight: bold;
+	color: #f2fffd !important;
+}
+
+.principal {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.principal_qh {
+	margin: 5% 2%;
+}
+
+.principal_2 {
+	margin: 10% 2%;
+}
+
+.div_arrow {
+	text-align: center;
+
+}
+
+.next_new {
+    background-color: gray;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0px 10px;
+}
+
+.caja_noticia {
+	background-color: #ccc5ad;
+	color: #f2fffd;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin: 1% 1%;
+}
+
+.caja_integrantes {
+	background-color: #ccc5ad;
+	color: #f2fffd;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-bottom: 0%;
+}
+
+.portada {
+	margin: 1% 1%;
+}
+
+.caja_mapa {
+	background-color: #ccc5ad;
+	color: #f2fffd;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 1% 1%;
+}
+
+.p_informacion {
+	color: #7a7a7a;
+	font-size: 14px;
+	border: 1px solid #7a7a7a;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-weight: bold;
+}
+
+.lista_integrantes {
+	border: 1px solid #7a7a7a;
+}
+
+.integrantes {
+	list-style: none;
+	color: #7a7a7a;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+footer {
+	bottom: 0;
+	background-color: #98b2ae;
+	text-align: center;
+}
+
+.footer_a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #f2fffd;
+}
+
+.footer_p {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: #f2fffd;	
+}
+
+.casillas_ct {
+	margin: 2% 0%;
+}
+
+.principal_contactanos {
+	margin: 5% 2%;
+}
+
+.titulo_informacion {
+	font-weight: bold;
+	color: #7a7a7a;
+	font-size: 24px;
+	margin: auto -1%;
+}
+
+.titulo_informacion_p {
+	font-weight: bold;
+	color: #7a7a7a;
+	font-size: 24px;
+	text-align: center;
+}
+
+.form_contacto {
+	border: 1px solid #7a7a7a;
+}
+
+.caja_login {
+	background-color: #98b2ae;
+	color: #f2fffd;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0% 0%;
+}
+
+.formulario_centro {
+	border: 1px solid #7a7a7a;	
+}
+
+
+.label_login {
+	color: #7a7a7a;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.input_ct {
+	border-radius: 10px;
+	color: #98b2ae;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.tarea_ct {
+	border-radius: 10px;
+	color: #98b2ae;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.input_login {
+	border-radius: 10px;
+	height: 70%;
+	width: 80%;
+	margin: auto 10%;
+	color: #98b2ae;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.boton {
+	height: 70%;
+	width: 50%;
+	border-radius: 10px;
+	background-color: #e6e6e6;
+	font-weight: bold;
+	font-size: 16px;
+	color: #98b2ae;
+	margin: auto 25%;
+}
+
+.casillas_lg {
+	margin: 2% 0%;
+	text-align: center;
+}
+
+.boton_ct {
+	height: 120%;
+	width: 20%;
+	border-radius: 10px;
+	background-color: #e6e6e6;
+	font-weight: bold;
+	font-size: 16px;
+	color: #98b2ae;
+	margin: auto 15%;
+}
+
+[class^="col-"] {
+    float: left
+    /*border: 1px solid red;*/
 }
