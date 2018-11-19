@@ -27,7 +27,7 @@
                 <ul class="list-inline navbar-nav w-100">
                     <li class="list-inline-item nav-item active px-2 mr-auto"><a class="nav-link texto navegacion_element" href="dash.html">INICIO</a></li>
                     <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="login_profesor.html">PROFESOR</a></li>
-                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="#">ESTUDIANTE</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="linea_tiempo.html">ESTUDIANTE</a></li>
                     <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="quienes_somos.html">¿QUIENES SOMOS?</a></li>
                     <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="que_hacemos.html">¿QUE HACEMOS?</a></li>
                 </ul>
@@ -39,19 +39,21 @@
           <div class="col-md-8 col-sm-8">
             <a class="col-md-12 col-sm-12 portada" href="https://placeholder.com"><img class="col-12 col-sm-12" src="https://via.placeholder.com/520x230" alt="imagen escuela"></a>
             <article class="col-md_12 col-sm-12">
-              <h2 class="col-md-12 col-sm-12 caja_mapa">¿DONDE UBICARNOS?</h2>
-              <div class="col-md-12 col-sm-12" id="map">El mapa ira aqui</div>
-              <a class="col-md-12 col-sm-12" href="https://placeholder.com"><img class="col-12 col-sm-12" src="https://via.placeholder.com/520x230" alt="imagen mapa"></a>
+              <h2 class="col-md-12 col-sm-12 caja_mapa">¿DONDE UBICARNOS?</h2>              
+              <div class="col-md-12 col-sm-12 div_map" id="googleMap"></div>              
+              <!--<a class="col-md-12 col-sm-12" href="https://placeholder.com"><img class="col-12 col-sm-12" src="https://via.placeholder.com/520x230" alt="imagen mapa"></a>-->
             </article>  
           </div>
           <div class="col-md-4 col">
             <article class="col-md-12 col-sm-12">
               <h2 class="col-md-12 col-sm-12 caja_noticia texto">NOTICIAS</h2>
-              <p class="col-md-12 col-sm-12">
+              <h3 class="col-md-12 col-sm-12" id="titulo_noticia"></h3>
+              <p class="col-md-12 col-sm-12 texto" id="descripcion_noticia"></p>
+              <!--<p class="col-md-12 col-sm-12">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-              </p>
+              </p>-->
               <div class="col-md_12 col-sm-12 div_arrow">
-                 <a href="#" class="next_new">&#8250;</a>
+                 <button id="id_cambiar">&#8250;</button>
               </div>
             </article>  
           </div>          
@@ -64,5 +66,8 @@
         </footer>
       </div>
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB82ZlwAmhclE5UT8a5ULc-wZhC9QKOT8Q&callback=myMap"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../static/js/funcionalidades.js"></script>
   </body>
 </html>
