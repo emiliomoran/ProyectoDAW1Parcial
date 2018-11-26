@@ -410,6 +410,7 @@ time {
 
 #sidebar {
     background: black;
+    height: 40em !important;
     /*color: #f2fffd;*/
 }
 
@@ -418,21 +419,24 @@ time {
     background-color: #7a7a7a;
     text-align: center;
     font-weight: bold;
+    padding: 8%;
 }
 
-/*
+
 .titulo_h2_sb {
 	font-size: 24px;
+	font-weight: bold;
 }
+
 
 #sidebar ul.components {
-	margin: 0%;	
-	border: 1px solid #7a7a7a;
 }
 
+
 #sidebar ul li a {
-    padding: 16%;
+    padding: 10%;
     display: block;
+    /*border-top: 1px solid #7a7a7a;*/
     border-bottom: 1px solid #7a7a7a;
     text-decoration: none;
     font-weight: bold;    
@@ -441,6 +445,24 @@ time {
 	margin: 0%;   
 }
 
+.section-notas {
+	margin: 1% 0%;
+}
+
+.tabla-notas {
+	margin: 5% 1%;
+}
+
+/*
+.clase {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+*/
+
+/*
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
