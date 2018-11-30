@@ -83,34 +83,35 @@ img {
 
 .header_principal {
 	top: 0;
-	background-color: #98b2ae;
+	background-color: #000040;
 }
 
 .header_h1 {
-	font-weight: bold;
 	font-size: 24px;
 	margin-top: 1%;
 	margin-bottom: 0%;
 	color: black;
-	color: #f2fffd;
+	color: #F9FFFB;
 
 }
 
 .header_in {
 	top: 0;
-	background-color: #98b2ae;
+	background-color: #0C0C40;
 	padding: 1% 0%;
 }
 
 .salir {
-	color: #f2fffd;
+	color: #F9FFFB;
 	float: right !important;
 	font-size: 150% !important;
 }
 
 .btn-change {
-	background-color: #98b2ae !important;
-	border-color: #98b2ae !important;
+	background-color: #0C0C40 !important;
+	border-color: #0C0C40 !important;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .icon-social {
@@ -159,12 +160,11 @@ img {
 }
 
 .navegacion {
-	background-color: #b2afa1;
+	background-color: #3E403F;
 }
 
 .navegacion_element {
-	font-weight: bold;
-	color: #f2fffd !important;
+	color: #F9FFFB !important;
 }
 
 .principal {
@@ -200,17 +200,16 @@ img {
 }
 
 .caja_noticia {
-	background-color: #ccc5ad;
-	color: #f2fffd;
-	font-size: 18px;
-	font-weight: bold;
+	background-color: #0C0C40;
+	color: #F9FFFB;
+	font-size: 19px;
 	padding-top: 4%;
 	padding-bottom: 4%;
 	margin: 1% 1%;
 }
 
 .caja_integrantes {
-	background-color: #ccc5ad;
+	background-color: #0C0C40;
 	color: #f2fffd;
 	font-size: 18px;
 	font-weight: bold;
@@ -224,32 +223,29 @@ img {
 }
 
 .caja_mapa {
-	background-color: #ccc5ad;
+	background-color: #0C0C40;
 	color: #f2fffd;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 19px;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	margin: 1% 1%;
 }
 
 .p_informacion {
-	color: #7a7a7a;
-	font-size: 14px;
-	border: 1px solid #7a7a7a;
+	color: #0A000A;
+	font-size: 16px;
+	border: 1px solid #3E403F;
 	padding-top: 10%;
 	padding-bottom: 10%;
-	font-weight: bold;
 }
 
 .lista_integrantes {
-	border: 1px solid #7a7a7a;
+	border: 1px solid #3E403F;
 }
 
 .integrantes {
 	list-style: none;
-	color: #7a7a7a;
-	font-weight: bold;
+	color: #0A000A;
 	font-size: 26px;
 	text-align: center;
 	padding-top: 10%;
@@ -258,22 +254,20 @@ img {
 
 footer {
 	/*bottom: 0;*/
-	background-color: #98b2ae;
+	background-color: #000040;
 	text-align: center;
 }
 
 .footer_a {
-	text-decoration: none;
-	font-weight: bold;
+	text-decoration: none !important;
 	font-size: 18px;
-	color: #f2fffd;
+	color: #F9FFFB;	
 }
 
 .footer_p {
 	text-decoration: none;
-	font-weight: bold;
-	font-size: 16px;
-	color: #f2fffd;	
+	font-size: 11px;
+	color: #F9FFFB;	
 }
 
 .casillas_ct {
@@ -285,49 +279,45 @@ footer {
 }
 
 .titulo_informacion {
-	font-weight: bold;
-	color: #7a7a7a;
+	color: #0A000A;
 	font-size: 24px;
 	margin: auto -1%;
 }
 
 .titulo_informacion_p {
-	font-weight: bold;
-	color: #7a7a7a;
+	color: #0A000A;
 	font-size: 24px;
 	text-align: center;
 }
 
 .form_contacto {
-	border: 1px solid #7a7a7a;
+	border: 1px solid #3E403F;
 }
 
 .caja_login {
-	background-color: #98b2ae;
-	color: #f2fffd;
+	background-color: #0C0C40;
+	color: #F9FFFB;
 	font-size: 24px;
-	font-weight: bold;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	margin: 0% 0%;
+	text-align: center;
 }
 
 .formulario_centro {
-	border: 1px solid #7a7a7a;	
+	border: 1px solid #3E403F;
 }
 
 
 .label_login {
-	color: #7a7a7a;
-	font-size: 24px;
-	font-weight: bold;
+	color: #0A000A;
+	font-size: 22px;
 	text-align: center;
 }
 
 .input_ct {
 	border-radius: 10px;
 	color: #98b2ae;
-	font-weight: bold;
 	font-size: 14px;
 }
 
@@ -353,12 +343,11 @@ footer {
 	height: 70%;
 	width: 50%;
 	border-radius: 10px;
-	background-color: #e6e6e6;
-	font-weight: bold;
+	background-color: #0C0C40;
 	font-size: 16px;
-	color: #98b2ae;
+	color: #F9FFFB;
 	margin: auto 25%;
-	border-color: #e6e6e6;
+	border-color: #0C0C40;
 }
 
 .casillas_lg {
@@ -386,7 +375,7 @@ footer {
 }
  
 .timeline ul {
-  background: #456990;
+  /*background: #456990;*/
   padding: 50px 0;
 }
 
@@ -396,7 +385,8 @@ footer {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
+  /*background: #fff;*/
+  background: #0A000A;
 }
 
 .timeline ul li::after {
@@ -416,7 +406,8 @@ footer {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #F45B69;
+  background: #3E403F;
+  color: #F9FFFB;
 }
 
 .timeline ul li div::before {
@@ -435,7 +426,7 @@ footer {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
+  border-color: transparent #3E403F transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -445,7 +436,7 @@ footer {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F45B69;
+  border-color: transparent transparent transparent #3E403F;
 }
 
 time {
@@ -464,7 +455,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #F45B69;
+  background: #3E403F;
 }
 
 .timeline ul li div {
@@ -514,7 +505,7 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent #3E403F transparent transparent;
   }
 }
 
@@ -524,14 +515,14 @@ time {
 }
 
 #sidebar {
-    background: white;
+    background: #3E403F;
     height: 40em !important;
     /*color: #f2fffd;*/
 }
 
 
 #sidebar .sidebar-header {    
-    background-color: white;
+    background-color: #3E403F;
     text-align: center;
     font-weight: bold;
     padding: 8%;
@@ -541,7 +532,7 @@ time {
 
 .titulo_h2_sb {
 	font-size: 24px;
-	font-weight: bold;
+	color: #F9FFFB;
 }
 
 
@@ -552,12 +543,10 @@ time {
 #sidebar ul li a {
     padding: 10%;
     display: block;
-    /*border-top: 1px solid #7a7a7a;*/
-    border-bottom: 1px solid #7a7a7a;
+    border-bottom: 1px solid #F9FFFB;
     text-decoration: none;
-    text-align: center;
-    font-weight: bold;    
-    color: #7a7a7a;
+    text-align: center;   
+    color: #F9FFFB;
     font-size: 14px;
 	margin: 0%;   
 }
@@ -596,12 +585,11 @@ time {
 	max-height: 40px;
 	max-width: 150px;
 	border-radius: 10px !important;
-	background-color: #e6e6e6;
-	font-weight: bold;
+	background-color: #0C0C40;
 	font-size: 16px;
-	color: #98b2ae;
+	color: #F9FFFB;
 	margin: 1% 1%;
-	border-color: #e6e6e6;
+	border-color: #0C0C40;
 }
 
 /*
@@ -632,8 +620,9 @@ time {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: lightblue;
-    color: white;
+    background-color: #3E403F;
+    color: #F9FFFB;
+    font-weight: normal;
 }
 
 /*

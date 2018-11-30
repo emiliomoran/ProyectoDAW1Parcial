@@ -15,7 +15,7 @@ function setearNoticia(titulo, descripcion) {
 function cargarPrimerNoticia() {
 	var h3 = document.getElementById('titulo_noticia')
    	h3.setAttribute("name", "titulo1");  
-   	$.getJSON( "../static/noticias/noticias.json", function( data ) {
+   	$.getJSON( "../static/data/noticias.json", function( data ) {
    	  setearNoticia(data[0]['titulo1'], data[0]['descripcion1']);       	 
   	});
 }
@@ -27,7 +27,7 @@ function cargarNoticia(num){
 	var new_descripcion = 'descripcion'+num;	
 	console.log(new_titulo);
 	console.log(new_descripcion);
-	$.getJSON( "../static/noticias/noticias.json", function( data ) {
+	$.getJSON( "../static/data/noticias.json", function( data ) {
 		//console.log(data[0][new_titulo]);
 		//console.log(data[0][new_descripcion]);		
    	  setearNoticia(data[parseInt(num-1)][new_titulo], data[parseInt(num-1)][new_descripcion]);     	  
