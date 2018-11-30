@@ -6,6 +6,7 @@
     <title>Unidad Educativa Alfredo Veintimilla Moscozo</title>
     <link rel="stylesheet" href="../static/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
     <script src="../static/js/bootstrap.min.js"></script>
   </head>
@@ -15,7 +16,11 @@
         <header class="col-md-12 col-sm-12 header_principal">
           <img class = "col-md-1 col-sm-1 img-fluid" src="../static/img/logo.jpeg" alt="logo">
           <h1 class="col-md-8 col-sm-12 texto header_h1">UNIDAD EDUCATIVA<br>ALFREDO VEINTIMILLA MOSCOZO</h1>
-          <input class="texto header_search col-md-3 col-sm-12" type="search" placeholder="Buscar ...">
+          <div class="col-md-3 col-sm-3 icon-social">
+            <a href="#" class="fa fa-google icon-social"></a>
+            <a href="#" class="fa fa-twitter icon-social"></a>
+            <a href="#" class="fa fa-facebook icon-social"></a>
+          </div>
         </header>  
       </div>
       <div class="row sticky-top">
@@ -27,7 +32,7 @@
                 <ul class="list-inline navbar-nav w-100">
                     <li class="list-inline-item nav-item active px-2 mr-auto"><a class="nav-link texto navegacion_element" href="dash.html">INICIO</a></li>
                     <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="login_profesor.html">PROFESOR</a></li>
-                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="#">ESTUDIANTE</a></li>
+                    <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="linea_tiempo.html">HISTORIA</a></li>
                     <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="quienes_somos.html">¿QUIENES SOMOS?</a></li>
                     <li class="list-inline-item nav-item px-2"><a class="nav-link texto navegacion_element" href="que_hacemos.html">¿QUE HACEMOS?</a></li>
                 </ul>
@@ -44,24 +49,24 @@
                 <h2 class="col-md-12 caja_login texto">LOGIN</h2>
               </div>
               <br>
-              <div class="row">
+              <div class="form-group">
                 <div class="col-md-12 casillas_lg">
                   <label class="col-md-12 texto label_login" for="n_input_usuario">USERNAME</label>
-                  <input class="col-md-12 texto input_login" type="text" placeholder="Ingrese usuario ..." name="n_input_usuario" required>    
+                  <input class="col-md-12 texto input_login form-control" type="text" placeholder="Ingrese usuario ..." name="n_input_usuario" required>    
                 </div>                
               </div>
               <br>
-              <div class="row">
+              <div class="form-group">
                 <div class="col-md-12 casillas_lg">
                   <label class="col-md-12 texto label_login" for="n_input_pass">CONTRASENA</label>
-                  <input class="col-md-12 texto input_login" type="password" placeholder="Ingrese su contrasena ..." name="n_input_pass" required>  
+                  <input class="col-md-12 texto input_login form-control" type="password" placeholder="Ingrese su contrasena ..." name="n_input_pass" required>  
                 </div>                
               </div>
               <br>
-              <div class="row">
+              <div class="form-group">
                 <div class="col-md-12 casillas_lg">
-                  <button class="col-md-12 texto boton" type="button">ACEPTAR</button>
-                  <a class="col-md-12" href="#">Olvidaste tu contrasena?</a>
+                  <a href="ingreso_notas.html" class="col-md-12 texto boton btn btn-primary">ACEPTAR</a>
+                  <a class="col-md-12" href="#">¿Olvidaste tu contrasena?</a>
                 </div>                
               </div>
             </div>

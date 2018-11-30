@@ -3,6 +3,7 @@ var mapProp= {
   center:new google.maps.LatLng(-2.1331924,-79.930191),
   zoom:5,
 };
+
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 
